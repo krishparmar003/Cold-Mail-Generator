@@ -46,5 +46,4 @@ streamlit run main.py
 - **Scraping** — Selenium + BeautifulSoup4
 - **UI** — Streamlit
 
-## Acknowledgements
-Inspired by [codebasics](https://github.com/codebasics/project-genai-cold-email-generator)
+*Based on work by codebasics — MIT License*
