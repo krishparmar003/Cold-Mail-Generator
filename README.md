@@ -45,3 +45,6 @@ streamlit run main.py
 - **Vector Store** — ChromaDB
 - **Scraping** — Selenium + BeautifulSoup4
 - **UI** — Streamlit
+
+## Acknowledgements
+Inspired by [codebasics](https://github.com/codebasics/project-genai-cold-email-generator)
