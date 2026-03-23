@@ -1,2 +1,45 @@
-# Cold-Mail-Generator
-Cold email generator for services company using groq, langchain and streamlit. It allows users to input the URL of a company's careers page. The tool then extracts job listings from that page and generates personalized cold emails. These emails include relevant portfolio links sourced from a vector database, based on the specific job descriptions.
+# Cold Mail Generator
+
+Paste a company's careers page URL → get a personalized cold email instantly.
+
+Built with LangChain, Groq (LLaMA 3.1), ChromaDB, and Streamlit.
+
+---
+
+## How it works
+
+1. Scrapes the careers page
+2. LLM extracts job details (title, skills, experience) as JSON
+3. Matches your portfolio links from a vector store based on required skills
+4. LLM writes a personalized cold email using the job + your portfolio
+
+![Architecture](architecture.png)
+
+---
+
+## Setup
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Cold-Mail-Generator.git
+cd Cold-Mail-Generator
+pip install -r requirements.txt
+```
+
+Create a `.env` file:
+```
+GROQ_API_KEY=your_key_here
+```
+Get your free key at [console.groq.com](https://console.groq.com)
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Tech Stack
+- **LLM** — LLaMA 3.1-8b via Groq
+- **Orchestration** — LangChain
+- **Vector Store** — ChromaDB
+- **Scraping** — Selenium + BeautifulSoup4
+- **UI** — Streamlit
