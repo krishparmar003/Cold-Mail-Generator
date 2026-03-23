@@ -13,14 +13,15 @@ Built with LangChain, Groq (LLaMA 3.1), ChromaDB, and Streamlit.
 3. Matches your portfolio links from a vector store based on required skills
 4. LLM writes a personalized cold email using the job + your portfolio
 
-![Architecture](architecture.png)
+<img width="1400" height="520" alt="architecture" src="https://github.com/user-attachments/assets/42288312-1e14-4043-adc8-e233e55d8826" />
+
 
 ---
 
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Cold-Mail-Generator.git
+git <--repo link-->
 cd Cold-Mail-Generator
 pip install -r requirements.txt
 ```
@@ -32,7 +33,8 @@ GROQ_API_KEY=your_key_here
 Get your free key at [console.groq.com](https://console.groq.com)
 
 ```bash
-streamlit run app.py
+cd app
+streamlit run main.py
 ```
 
 ---
