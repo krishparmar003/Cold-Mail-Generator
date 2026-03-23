@@ -21,7 +21,7 @@ Built with LangChain, Groq (LLaMA 3.1), ChromaDB, and Streamlit.
 ## Setup
 
 ```bash
-git <--repo link-->
+git clone https://github.com/krishparmar003/Cold-Mail-Generator.git
 cd Cold-Mail-Generator
 pip install -r requirements.txt
 ```
