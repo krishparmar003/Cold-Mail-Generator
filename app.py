@@ -1,16 +1,12 @@
 import os
 import uuid
-import re
 import streamlit as st
 import pandas as pd
-#import chromadb
-from dotenv import load_dotenv
+import chromadb
 from langchain_groq import ChatGroq
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
-
-load_dotenv()
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
