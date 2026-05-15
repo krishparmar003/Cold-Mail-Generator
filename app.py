@@ -3,7 +3,7 @@ import uuid
 import re
 import streamlit as st
 import pandas as pd
-import chromadb
+#import chromadb
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 from langchain_community.document_loaders import WebBaseLoader
