@@ -8,3 +8,4 @@ unstructured
 selenium
 chromadb
 ipykernel
+streamlit
