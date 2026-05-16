@@ -4,7 +4,7 @@ Paste a company's careers page URL → get a personalized cold email instantly.
 
 **Live Demo → [cold-mail-generatorbykrish.streamlit.app](https://cold-mail-generatorbykrish.streamlit.app/)**
 
-Built with LangChain, Groq (LLaMA 3.3 70B), ChromaDB, and Streamlit.
+Built with LangChain, Groq, ChromaDB, and Streamlit.
 
 ---
 
@@ -61,7 +61,7 @@ streamlit run app.py
 Cold-Mail-Generator/
 ├── app.py               # Streamlit app
 ├── my_portfolio.csv     # Your portfolio data (techstack + links)
-├── architecture.png     # Architecture diagram
+├── email_generator.ipynb 
 ├── requirements.txt
 └── .gitignore
 ```
